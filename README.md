@@ -1,9 +1,10 @@
-# Cloud Foundry Node.js Buildpack
+# Cloud Foundry Node.js FIPS-compliant OpenSSL Buildpack
 [![CF Slack](https://s3.amazonaws.com/buildpacks-assets/buildpacks-slack.svg)](http://slack.cloudfoundry.org)
 
-A Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) for Node based apps.
+**The purpose of this fork is to provide a Node.js CF buildpack which use the FIPS 140-2 compliant OpenSSL module**
 
-This is based on the [Heroku buildpack] (https://github.com/heroku/heroku-buildpack-nodejs).
+This is a fork of the Cloud Foundry [buildpack](http://docs.cloudfoundry.org/buildpacks/) for Node based apps.
+Which is based on the [Heroku buildpack] (https://github.com/heroku/heroku-buildpack-nodejs).
 
 Additional documentation can be found at the [CloudFoundry.org](http://docs.cloudfoundry.org/buildpacks/).
 
